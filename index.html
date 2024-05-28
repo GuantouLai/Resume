@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>履歷</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/bubble.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">關於 Kevin</a></li>
+        <li><a target="_blank" href="./成績計算網站/">成績計算網站</a></li>
+        <li><a target="_blank" href="./貪食蛇遊戲/">貪吃蛇遊戲</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div id="background-wrap">
+        <div class="bubble x1"></div>
+        <div class="bubble x2"></div>
+        <div class="bubble x3"></div>
+        <div class="bubble x4"></div>
+        <div class="bubble x5"></div>
+        <div class="bubble x6"></div>
+        <div class="bubble x7"></div>
+        <div class="bubble x8"></div>
+        <div class="bubble x9"></div>
+        <div class="bubble x10"></div>
+      </div>
+
+      <section class="main-area">
+        <div class="info">
+          <h1>你好，我是Kevin!</h1>
+          <h2>
+            對於前端這塊技術秉持著好奇和熱忱，透過學習來提升自己的實力。
+          </h2>
+        </div>
+        <div class="img-area">
+          <img src="./images/me1.png" alt="個人照片" />
+        </div>
+      </section>
+
+      <section class="about-me">
+        <section class="description">
+          <h2>關於我的一些事情</h2>
+          <p>
+            我是一名大學剛畢業的新鮮人，對前端開發非常有熱忱，會運用時間來了解框架像是目前在學習React、又或者理解一些後端的技術。
+          </p>
+          <p>目前主要使用的工具為JavaScript、HTML、CSS(SCSS)、React</p>
+
+          <div class="progress-bar-area">
+            <p>JavaScript</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 55%"
+              ></div>
+            </div>
+
+            <p>HTML</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 70%"
+              ></div>
+            </div>
+
+            <p>CSS、SCSS</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 60%"
+              ></div>
+            </div>
+
+            <p>React</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 20%"
+              ></div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="resume">
+        <section class="table">
+          <table>
+            <tr style="border-top: 2px solid gray">
+              <td style="width: 20%">自我簡介</td>
+              <td style="width: 80%">畢業於高雄科技大學，在去年12月也服役完了。興趣是運動、網頁開發。</td>
+            </tr>
+            <tr>
+              <td>學歷</td>
+              <td>高雄科技大學 電腦與通訊工程學士</td>
+            </tr>
+
+            <tr>
+              <td>語言</td>
+              <td>
+                <ul>
+                  <li>中文:精通</li>
+                  <li>英文:中等</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>專長</td>
+              <td>
+                <img src="./ICONS/icons8-html-5.svg" alt="HTML5" />
+                <img src="./ICONS/icons8-css3.svg" alt="CSS3" />
+                <img src="./ICONS/icons8-javascript.svg" alt="JavaScript" />
+                <img src="./ICONS/icons8-react-native.svg" alt="React">
+              </td>
+            </tr>
+            <tr>
+              <td>作品</td>
+              <td>
+                兩個網頁前端專案，分別是成績計算網以及貪吃蛇遊戲。用HTML做出基本網頁架構、CSS將網頁前端美化以及提升使用外觀、JavaScript來操縱網頁裡邏輯。
+              </td>
+            </tr>
+          </table>
+        </section>
+
+        <section class="picture">
+          <img src="./images/me2.jpg" alt="個人照片" />
+          <div class="greenRect"></div>
+          <div class="greenRect2"></div>
+          <div class="greenRect3"></div>
+        </section>
+        
+      </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
